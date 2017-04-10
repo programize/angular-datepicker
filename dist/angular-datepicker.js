@@ -712,7 +712,7 @@ var PRISTINE_CLASS = 'ng-pristine',
     template: function (attrs, id) {
       return '' +
         '<div ' +
-        (id ? 'id="' + id + '" ' : '') +
+        (attrs.id ? 'id="' + attrs.id + '" ' : '') +
         'date-picker="' + attrs.ngModel + '" ' +
         (attrs.view ? 'view="' + attrs.view + '" ' : '') +
         (attrs.maxView ? 'max-view="' + attrs.maxView + '" ' : '') +
