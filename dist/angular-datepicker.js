@@ -251,6 +251,21 @@ var Module = angular.module('datePicker', []);
           scope.classes = classes;
         };
 
+        scope.initialize = function(delta) {
+            var max = getDate('maxDate');
+            if(max) {
+                scope.date = max;
+                update();
+            }else {
+                var min = getDate('minDate'); {
+                    if(min) {
+                        scope.date = min;
+                        update();
+                    }
+                }
+            }
+        }
+
         scope.next = function (delta) {
           var date = moment(scope.date);
           delta = delta || 1;
@@ -957,7 +972,7 @@ var PRISTINE_CLASS = 'ng-pristine',
 
 angular.module('datePicker').run(['$templateCache', function($templateCache) {
 $templateCache.put('templates/datepicker.html',
-    "<div ng-switch=\"view\">\r" +
+    "<div ng-switch=\"view\" ng-init=\"initialize()\">\r" +
     "\n" +
     "  <div class=\"beforeTable\" ng-switch-when=\"date\">\r" +
     "\n" +
