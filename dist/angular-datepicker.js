@@ -1031,7 +1031,7 @@ $templateCache.put('templates/datepicker.html',
     "      </thead>\r" +
     "\n" +
     "      <tbody>\r" +
-    "\n" + "<tr><td rowspan=\"7\" ><div class=\"datepicker-navigation\" ng-click=\"prev()\">&lsaquo;</div></td>\r<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=\"7\" ><div class=\"datepicker-navigation last\" ng-click=\"next()\">&rsaquo;</div></td>\r" + "</tr>" +
+    "\n" + "<tr><td rowspan=\"7\" ><div class=\"datepicker-navigation\" ng-click=\"prev(10)\">&lsaquo;</div></td>\r<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=\"7\" ><div class=\"datepicker-navigation last\" ng-click=\"next(10)\">&rsaquo;</div></td>\r" + "</tr>" +
     "      <tr>\r" +
     "\n" +
     "        <td colspan=\"7\">\r" +
@@ -1105,7 +1105,7 @@ $templateCache.put('templates/datepicker.html',
     "      </thead>\r" +
     "\n" +
     "      <tbody>\r" +
-    "\n" + "<tr><td rowspan=\"7\" ><div class=\"datepicker-navigation\" ng-click=\"prev()\">&lsaquo;</div></td>\r<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=\"7\" ><div class=\"datepicker-navigation last\" ng-click=\"next()\">&rsaquo;</div></td>\r" + "</tr>" +
+    "\n" + "<tr><td rowspan=\"7\" ><div class=\"datepicker-navigation\" ng-click=\"prev(24)\">&lsaquo;</div></td>\r<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=\"7\" ><div class=\"datepicker-navigation last\" ng-click=\"next(24)\">&rsaquo;</div></td>\r" + "</tr>" +
     "      <tr>\r" +
     "\n" +
     "        <td colspan=\"7\">\r" +
@@ -1141,7 +1141,7 @@ $templateCache.put('templates/datepicker.html',
     "      </thead>\r" +
     "\n" +
     "      <tbody>\r" +
-    "\n" + "<tr><td rowspan=\"7\" ><div class=\"datepicker-navigation\" ng-click=\"prev()\">&lsaquo;</div></td>\r<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=\"7\" ><div class=\"datepicker-navigation last\" ng-click=\"next()\">&rsaquo;</div></td>\r" + "</tr>" +
+    "\n" + "<tr><td rowspan=\"7\" ><div class=\"datepicker-navigation\" ng-click=\"prev(60)\">&lsaquo;</div></td>\r<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=\"7\" ><div class=\"datepicker-navigation last\" ng-click=\"next(10)\">&rsaquo;</div></td>\r" + "</tr>" +
     "      <tr>\r" +
     "\n" +
     "        <td colspan=\"7\">\r" +
